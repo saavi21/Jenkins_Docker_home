@@ -1,0 +1,11 @@
+Started by user [8mha:////4AqPJENQKjs9RnS1YPoP2CUGXvDBD3I+BKOKneDUdu+RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9/LzsxCIA4pbMccAAAAA=[0monkar ojha
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/purge_job_on_master
+[purge_job_on_master] $ /bin/bash /tmp/jenkins4922299579030274151.sh
+Tesing for clean
+find: ‘/root’: Permission denied
+find: ‘/var/cache/ldconfig’: Permission denied
+find: ‘/var/cache/apt/archives/partial’: Permission denied
+find: ‘/etc/ssl/private’: Permission denied
+find: ‘/proc/tty/driver’: Permission denied
+Finished: SUCCESS

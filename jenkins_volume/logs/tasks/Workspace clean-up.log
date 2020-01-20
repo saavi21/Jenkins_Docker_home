@@ -1,0 +1,8 @@
+Started at Sat Jan 11 08:43:38 UTC 2020
+Checking anisble_job
+Checking Connect_with_Ansible
+Checking first_job
+Checking promote_Dev_Test
+Checking purge_job_on_master
+Checking test_whoami
+Finished at Sat Jan 11 08:43:38 UTC 2020. 7ms

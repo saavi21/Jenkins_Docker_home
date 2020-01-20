@@ -1,0 +1,26 @@
+Warning: no key algorithms provided; JENKINS-42959 disabled
+SSHLauncher{host='172.17.0.3', port=22, credentialsId='1f14e1e8-e099-4f34-a124-b9f79c1dfe79', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=210, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.KnownHostsFileKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[01/11/20 09:04:46] [SSH] Opening SSH connection to 172.17.0.3:22.
+[01/11/20 09:04:47] [SSH] WARNING: No entry currently exists in the Known Hosts file for this host. Connections will be denied until this new host and its associated key is added to the Known Hosts file.
+Key exchange was not finished, connection is closed.
+java.io.IOException: There was a problem while connecting to 172.17.0.3:22
+	at com.trilead.ssh2.Connection.connect(Connection.java:760)
+	at hudson.plugins.sshslaves.SSHLauncher.openConnection(SSHLauncher.java:823)
+	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:425)
+	at hudson.plugins.sshslaves.SSHLauncher$1.call(SSHLauncher.java:412)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Key exchange was not finished, connection is closed.
+	at com.trilead.ssh2.transport.KexManager.getOrWaitForConnectionInfo(KexManager.java:95)
+	at com.trilead.ssh2.transport.TransportManager.getConnectionInfo(TransportManager.java:237)
+	at com.trilead.ssh2.Connection.connect(Connection.java:711)
+	... 7 more
+Caused by: java.io.IOException: The server hostkey was not accepted by the verifier callback
+	at com.trilead.ssh2.transport.KexManager.handleMessage(KexManager.java:548)
+	at com.trilead.ssh2.transport.TransportManager.receiveLoop(TransportManager.java:790)
+	at com.trilead.ssh2.transport.TransportManager$1.run(TransportManager.java:502)
+	... 1 more
+[01/11/20 09:04:47] Launch failed - cleaning up connection
+[01/11/20 09:04:47] [SSH] Connection closed.

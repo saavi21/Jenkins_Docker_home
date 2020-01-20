@@ -1,0 +1,21 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/promote_Dev_Test
+[promote_Dev_Test] $ /bin/sh -xe /tmp/jenkins2826212738578019957.sh
++ echo Copying file from dev to test Environment
+Copying file from dev to test Environment
++ wc -l
++ ls -ltr /tmp/dev /tmp/hsperfdata_jenkins /tmp/hsperfdata_root /tmp/jenkins2826212738578019957.sh /tmp/jetty-0.0.0.0-8080-war-_-any-5236669250424490424.dir /tmp/jetty-0.0.0.0-8080-war-_-any-7533928142769987376.dir /tmp/jetty-0.0.0.0-8080-war-_-any-9071451029863559522.dir /tmp/test /tmp/winstone1029272940659248604.jar /tmp/winstone2442218212382901676.jar /tmp/winstone7515237086015008956.jar
+28
++ mkdir -p /tmp/dev
++ touch /tmp/dev/file.dev
++ echo dev file
++ mkdir -p /tmp/test
++ cp -r /tmp/dev/file.dev /tmp/test/
++ chmod +777 -R /tmp/test/
++ echo  Files in Test Env
+ Files in Test Env
++ + ls -al /tmp/test/file.dev
+wc -l
+1
+Finished: SUCCESS

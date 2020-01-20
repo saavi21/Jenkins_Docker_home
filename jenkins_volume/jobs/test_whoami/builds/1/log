@@ -1,0 +1,11 @@
+Started by user [8mha:////4AqPJENQKjs9RnS1YPoP2CUGXvDBD3I+BKOKneDUdu+RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9/LzsxCIA4pbMccAAAAA=[0monkar ojha
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test_whoami
+[test_whoami] $ /bin/sh -xe /tmp/jenkins7593787443910939844.sh
++ echo I'm on the host
+I'm on the host
++ hostname
+830f1c25fda2
+/tmp/jenkins7593787443910939844.sh: 3: /tmp/jenkins7593787443910939844.sh: Syntax error: Unterminated quoted string
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,11 @@
+Started by user [8mha:////4AqPJENQKjs9RnS1YPoP2CUGXvDBD3I+BKOKneDUdu+RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9/LzsxCIA4pbMccAAAAA=[0monkar ojha
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/first_job
+[first_job] $ /bin/sh -xe /tmp/jenkins5057484035988923065.sh
++ hostname
+830f1c25fda2
++ pwd
+/var/jenkins_home/workspace/first_job
++ ls -ltr
+total 0
+Finished: SUCCESS

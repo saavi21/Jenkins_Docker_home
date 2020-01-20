@@ -1,0 +1,11 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/purge_job_on_master
+[purge_job_on_master] $ /bin/bash /tmp/jenkins1254384992965108604.sh
+Tesing for clean
+find: ‘/root’: Permission denied
+find: ‘/var/cache/ldconfig’: Permission denied
+find: ‘/var/cache/apt/archives/partial’: Permission denied
+find: ‘/etc/ssl/private’: Permission denied
+find: ‘/proc/tty/driver’: Permission denied
+Finished: SUCCESS
